@@ -23,9 +23,9 @@
 "    -> Spell checking
 "    -> Misc
 "    -> Helper functions
+"    -> MODIFICHE MIE
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -384,3 +384,11 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => MODIFICHE MIE
+" Le metto alla fine per sovrascrivere eventuali settagi 
+" di default.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Abilita l'utilizzo del mouse
+set mouse=a
