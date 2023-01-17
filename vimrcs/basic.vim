@@ -392,3 +392,7 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Abilita l'utilizzo del mouse
 set mouse=a
+
+" Sovrascrivo il tema di colori
+" Per ora uso 'ron', è il meno peggio di quelli predefiniti.
+colorscheme ron
